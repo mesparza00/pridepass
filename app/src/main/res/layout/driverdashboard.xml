@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numPassengers"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColorHighlight="#ff7eff15"
+        android:textAlignment="center"
+        android:entries="@array/Groups"
+        android:hint="@string/hintPassenger"
+        android:clickable="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTime"
+        android:layout_marginTop="30dp"
+        android:textColorHighlight="#ff7eff15"
+        android:textAlignment="center"
+        android:hint="@string/hintTime"
+        android:clickable="true"
+        android:layout_below="@+id/numPassengers"
+        android:layout_alignStart="@+id/numPassengers"
+        android:layout_alignEnd="@+id/numPassengers" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCampus"
+        android:layout_below="@+id/txtTime"
+        android:layout_marginTop="34dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:prompt="@string/campusLocation"
+        android:entries="@array/Groups"
+        android:layout_alignStart="@+id/txtTime"
+        android:layout_alignEnd="@+id/txtTime" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerMeeting"
+        android:layout_below="@+id/spinnerCampus"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/campusMeeting"
+        android:entries="@array/Meeting"
+        android:layout_alignStart="@+id/spinnerCampus"
+        android:layout_alignEnd="@+id/spinnerCampus" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtColor"
+        android:hint="@string/hintColor"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/spinnerMeeting"
+        android:layout_alignStart="@+id/spinnerMeeting"
+        android:layout_alignEnd="@+id/spinnerMeeting" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMake"
+        android:hint="@string/hintMake"
+
+        android:clickable="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtColor"
+        android:layout_alignEnd="@+id/txtColor"
+        android:layout_alignStart="@+id/txtColor" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtModel"
+        android:hint="@string/hintModel"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtMake"
+        android:layout_alignEnd="@+id/txtMake"
+        android:layout_alignStart="@+id/txtMake" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/btnSubmit"
+        android:layout_below="@+id/txtModel"
+        android:layout_alignStart="@+id/txtModel"
+        android:layout_alignEnd="@+id/txtModel" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Pride Pass</string>
+    <string name="campusLocation">Select Campus Destination</string>
+    <string name="campusMeeting">Select Meeting Place</string>
+    <string name="campusDriver">Driver</string>
+    <string name="passengerDashboard">Pride Pass Lobby</string>
+    <string name="campusPassenger">Passenger</string>
+    <string name="rememberMe">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="driverDashboard">Driver Dashboard</string>
+
+
+    //Sign Up_Cancel String
+    <string name="signUp">Sign Up</string>
+
+
+
+    //button colors
+    <string name="onTime">On Time</string>
+    <string name="delay">Delayed</string>
+    <string name="heavyTraffic">Heavy Traffic</string>
+    <string name="loginbtn">Cancel Trip</string>
+
+    //hints
+    <string name="hintName">Enter Name</string>
+    <string name="hintPassword">Enter Password</string>
+    <string name="hintPassenger"># of passengers you can take?</string>
+    <string name="hintTime">Enter Departure Time</string>
+    <string name="hintColor">Car Color</string>
+    <string name="hintMake">Car Make?</string>
+    <string name="hintModel">Car Model</string>
+
+    //arrays
+    <string-array name="Groups">
+        <item >Purdue Calumet</item>
+        <item >Purdue North Central</item>
+    </string-array>
+
+    <string-array name="Meeting">
+        <item >SUL Parking Lot</item>
+        <item >Parking Garage</item>
+        <item >CLO Parking Lot</item>
+        <item >Fitness Center Parking Lot</item>
+    </string-array>
+
+</resources>

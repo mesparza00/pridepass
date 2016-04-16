@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGroupInfo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="Filler Text"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSignUpCancel"
+        android:text="@string/signUp"
+        android:layout_below="@+id/txtGroupInfo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#00FF00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location &amp; Time"
+        android:id="@+id/txtLocationTime"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnSignUpCancel"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Description"
+        android:id="@+id/txtCarDescription"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtLocationTime"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
